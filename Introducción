@@ -1,0 +1,33 @@
+Introducción
+¿Tu sitio es inclusivo? Por qué seguir las reglas de accesibilidad no es suficiente.
+Como estrategas digitales, debemos reconocer que una "luz verde" en un validador automático no es sinónimo de un sitio inclusivo, en realidad esto es apenas el punto de partida. Para un usuario con ceguera total, un sitio que aprueba dichos tests puede seguir siendo un "laberinto" indescifrable si los contenidos no textuales carecen de alternativas reales (Acosta et al., 2016). La accesibilidad no es un checklist de código; es la garantía de que cualquier persona, sin importar su condición, pueda percibir, comprender e interactuar con la web de manera efectiva y digna.
+
+1. Más allá del checklist: Por qué las pautas WCAG no son suficiente.
+Las guías del W3C (World Wide Web Consortium) proporciona cuatro pilares fundamentales: las WCAG (para contenidos), las ATAG (para herramientas de autor), las UAAG (para navegadores) y, crucialmente, las especificaciones ARIA (Accessible Rich Internet Applications), que permiten dotar de semántica a los elementos HTML.
+Sin embargo, estas normas no garantizan una experiencia de usuario óptima. Investigaciones de Engel et al. (2019) advierten que a menudo son demasiado generales y fallan al abordar elementos complejos como gráficos de dispersión o barras. Los algoritmos pueden detectar la falta de una etiqueta, pero no pueden juzgar si la información es comprensible para un ser humano.
+Saqr y Bhattacherjee (2012) describen las directrices de la W3C como "insuficientes para satisfacer las necesidades de las personas con discapacidad visual" específica.
+
+2. La accesibilidad es, en realidad, usabilidad para todos.
+Como señalan Shera et al. y Mazalu & Cechich, la accesibilidad debe ser agnóstica a factores como la edad, el género, el contexto cultural, la ubicación geográfica o la alfabetización informática. Tampoco es un diseño "especial" para una minoría, sino que ayuda a elevar la calidad del producto para todos.
+Un diseño accesible es, por lo tanto, un diseño más usable. Los beneficios se extienden a una persona mayor con visión disminuida, a un usuario en un entorno con exceso de iluminación que afecta su pantalla, o a alguien que intenta navegar en un dispositivo móvil bajo condiciones de red limitadas. La accesibilidad elimina barreras situacionales y técnicas para el 100% de la audiencia.
+
+3. El dilema de la arquitectura: No basta con que el código sea correcto.
+Existe una conexión entre la Arquitectura de la Información y la usabilidad. Un código HTML puede ser semánticamente perfecto, pero tener una estructura de la información caótica, volviéndolo inutilizable.
+Debemos entender que, para un usuario con ceguera total, la Arquitectura de la Información es la interfaz. Si la jerarquía de los datos no es lógica, el contenido se vuelve inaccesible. La presentación y organización de la información son tan críticas como el código mismo; sin una estructura coherente, la tecnología asistiva solo servirá para leer un caos.
+
+4. El poder de la refactorización: Reestructurando desde la raíz.
+Cuando un sistema existente presenta barreras, la solución no es un parche superficial, sino una refactorización de raíz. Según Garrido et al. (2014), refactorizar implica reestructurar el código fuente para mejorar su calidad interna sin alterar su comportamiento externo. El objetivo es permitir el acceso a información antes bloqueada y eliminar obstáculos en la interacción con contenidos ya existentes.
+Existen dos formas de abordar el problema: crear una aplicación separada o integrar la accesibilidad en la arquitectura actual. Mientras que la primera opción suele sacrificar funcionalidad, la segunda es el estándar de oro, aunque exige un equilibrio técnico para no comprometer la usabilidad de los usuarios sin discapacidad.
+Para terminar de explicar este punto, se puede citar a Harold (2018) quien define la refactorización como un proceso orientado a "reestructurar el código fuente... para ampliar sus artefactos de software o para cambiar y mejorar su estructura interna".
+
+5. El camino a la inclusión: Un proceso de rediseño de 5 etapas.
+En el trabajo de tesis de la Licneciatura en TEcnologías Computacionales de la Universidad Veracruzana (Xalapa, Veracruz, México) se propuso un marco de trabajo lineal capaz de guíar al desarrollador en el resideseño de sistemas inaccesibles, enfocado en usuarios con discapcidad visua total:
+1. Capacitación del equipo de desarrollo para conocer los estándares (WCAG, ARIA) y sensibilización sobre las necesidades reales del usuario.
+2. Exploración inicial: Diagnóstico del estado actual del sistema y su contexto de uso con herramientas automáticas.
+3. Evaluación: Identificación de barreras mediante la evaluación con usuarios reales y heurísticas especializadas con ayuda de expertos.
+4. Análisis: Determinación de soluciones técnicas y arquitectónicas basadas en los hallazgos.
+5. Recodificación: Implementación de cambios en el código y la arquitectura para asegurar una navegación fluida.
+
+6. ¿Por qué es importante proponer mejoras?
+La inclusión digital no es una opción técnica, es un imperativo de derechos humanos y dignidad. Los Objetivos de Desarrollo Sostenible de la ONU (ODS 4.5) son claros: para 2030 debemos eliminar las disparidades y asegurar el acceso igualitario en todos los niveles de enseñanza y formación profesional para las personas con discapacidad.
+Como líderes en tecnología, cada línea de código que escribimos es una decisión que afecta a los demás: podemos construir puentes o levantar muros. Al iniciar tu próximo proyecto, la pregunta no es si cumple con las reglas, sino: ¿estás abriendo las puertas de la sociedad del conocimiento o estás dejando a alguien afuera?
