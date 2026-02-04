@@ -1,0 +1,2 @@
+# Gu-a-para-el-redise-o-de-sistemas-web-para-proveer-accesibilidad-a-usuarios-con-ceguera-total
+Este repositorio es una guía de rediseño de sistemas web para mejorar la accesibilidad a usuarios con ceguera total. Recopila herramientas y técnicas existentes analizando sus aciertos y puntos de mejora. Se propone un proceso con cinco fases: capacitación, exploración inicial, evaluación, análisis de requisitos y recodificación.
