@@ -1,6 +1,8 @@
+Vídeo explicativo: https://youtu.be/jbVBU_uOZvM 
+
 Introducción
 ¿Tu sitio es inclusivo? Por qué seguir las reglas de accesibilidad no es suficiente.
-Como estrategas digitales, debemos reconocer que una "luz verde" en un validador automático no es sinónimo de un sitio inclusivo, en realidad esto es apenas el punto de partida. Para un usuario con ceguera total, un sitio que aprueba dichos tests puede seguir siendo un "laberinto" indescifrable si los contenidos no textuales carecen de alternativas reales (Acosta et al., 2016). La accesibilidad no es un checklist de código; es la garantía de que cualquier persona, sin importar su condición, pueda percibir, comprender e interactuar con la web de manera efectiva y digna.
+Como estrategas digitales, debemos saber que una "luz verde" en un validador automático no es sinónimo de un sitio inclusivo, en realidad esto es apenas el punto de partida. Para un usuario con ceguera total, un sitio que aprueba dichos tests puede seguir siendo un "laberinto" indescifrable si los contenidos no textuales carecen de alternativas reales (Acosta et al., 2016). La accesibilidad no es un checklist de código; es la garantía de que cualquier persona, sin importar su condición, pueda percibir, comprender e interactuar con la web de manera efectiva y digna.
 
 1. Más allá del checklist: Por qué las pautas WCAG no son suficiente.
 Las guías del W3C (World Wide Web Consortium) proporciona cuatro pilares fundamentales: las WCAG (para contenidos), las ATAG (para herramientas de autor), las UAAG (para navegadores) y, crucialmente, las especificaciones ARIA (Accessible Rich Internet Applications), que permiten dotar de semántica a los elementos HTML.
