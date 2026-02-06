@@ -1,0 +1,29 @@
+Aquí se ve una revisión sistemática de la literatura científica de los últimos diez años (2012-2022), centrada en la accesibilidad web, la refactorización y el rediseño de sitios para usuarios con discapacidad. 
+De una búsqueda inicial de 5,483 artículos, se seleccionaron y analizaron 51 documentos clave. A continuación, se presenta un resumen estructurado por los tópicos principales identificados en la investigación:
+1. Evaluación de la Accesibilidad
+La evaluación se divide en dos frentes complementarios:
+• Herramientas Automáticas: Se analizaron herramientas como WAVE, TAW y MAUVE++. Mientras WAVE es popular, TAW tiene mejor desempeño evaluando JavaScript y MAUVE++ sobresale en páginas dinámicas. Otras herramientas mencionadas incluyen AChecker (que permite ver el código HTML del error) y extensiones como Axe y Hera.
+    ◦ Limitación crítica: Las herramientas automáticas son de bajo costo pero no inteligentes; requieren supervisión experta y no sustituyen el juicio humano.
+• Evaluación con Usuarios: Se considera fundamental para garantizar el acceso real. Se destacan métodos como ACCESSA (enfoque centrado en usuario y expertos), el protocolo Thinking Aloud (pensar en voz alta), estudios etnográficos y el uso de cuestionarios estandarizados como SUS (Escala de Usabilidad del Sistema) y UEQ (Cuestionario de Experiencia de Usuario) para medir la satisfacción y eficacia.
+
+2. Normativas y Directrices
+El marco normativo sigue regido por el consorcio W3C. Se identifican cuatro estándares principales: WCAG (contenido), ATAG (herramientas de autor), UAAG (navegadores) y WAI-ARIA (semántica para contenido dinámico).
+Dichas pautas suelen ser difíciles de integrar en el flujo de trabajo diario. Por ello, surgen propuestas para crear listas de comprobación específicas para desarrolladores y "prototipos de pautas" con ejemplos de código y buenas prácticas.
+
+3. Tecnologías de Asistencia: Lectores de Pantalla
+Los lectores de pantalla (screen readers) son esenciales para usuarios con ceguera, traduciendo lo visual a audio.
+• Clasificación: Se dividen en integrados (VoiceOver, TalkBack) y externos (JAWS, NVDA).
+• Requisitos técnicos: Para que funcionen, los sitios deben usar correctamente HTML5 semántico y etiquetas WAI-ARIA, además de garantizar la navegación completa por teclado.
+
+4. Metodologías de Diseño y Desarrollo
+La investigación muestra cómo la accesibilidad se integra en el ciclo de vida del software:
+• Enfoques de Diseño: Se contrastan el Diseño Universal (diseño único apto para todos bajo 7 principios) y el Diseño Centrado en el Usuario (DCU), que involucra al usuario final en todas las etapas.
+• Ciclos de Desarrollo: Se observa una integración de la accesibilidad tanto en metodologías tradicionales (Cascada, V-Model) pero se presta mayor enfoque a las metodologías Ágiles (Scrum, RAD) porque favorecen la refactorización incremental y la adaptación rápida ante barreras detectadas.
+• Elicitación de Requisitos: Se proponen técnicas para capturar requisitos de accesibilidad desde el inicio, como el uso de UserX Stories (historias de usuario extendidas), catálogos de requisitos no funcionales y listas de comprobación de conflictos.
+
+5. Recodificación y Refactorización (Tecnologías)
+Esta sección aborda cómo implementar técnicamente la accesibilidad mediante la recodificación, ya sea manual o asistida:
+• Frameworks de JavaScript: Se analizan tecnologías modernas como React, Angular y Vue. Se destacan librerías específicas que facilitan la accesibilidad, como React ARIA, Chakra UI, Material UI y Headless UI, las cuales ofrecen componentes pre-construidos que cumplen con WAI-ARIA.
+• Frameworks CSS: Se evalúan Tailwind CSS y Bootstrap. Ambos incluyen clases utilitarias para ocultar contenido visualmente pero mantenerlo accesible para lectores de pantalla (clases visually-hidden o sr-only).
+• Linters (Análisis estático): Herramientas cruciales para detectar errores de accesibilidad en el código mientras se escribe, antes de compilar. Se destacan ESLint, Axe Accessibility Linter (para VS Code) y Webhint. Estas herramientas educan al desarrollador y previenen errores comunes desde etapas tempranas.
+En conclusión, el estado del arte revela una transición desde la simple evaluación post-desarrollo hacia una integración proactiva de la accesibilidad mediante el uso de frameworks modernos, herramientas de análisis de código (linters) y metodologías de diseño centrado en el usuario.
