@@ -1,0 +1,9 @@
+4.2 Etapa de exploración inicial
+
+Esta fasee es un primer acercamiento para diagnosticar el nivel general de accesibilidad de un sistema y comprender cómo es verbalizado para una persona con ceguera (mediante un lector de pantalla).
+Los puntos clave de esta fase son:
+
+• Herramientas de Evaluación Automática: Se utilizan para visualizar problemas básicos de accesibilidad como primer paso de la refactorización, aunque no son suficientes por sí solas. Se recomiendan específicamente WAVE (disponible en una extensión de navegador) y TAW (versión web) por su practicidad, información valiosa de etiquetado y rapidez.
+• Definición del Usuario (Proto-personas): Para simular los entornos de uso, se propone crear una "proto-persona" (basada en Mazalu y Cechich, 2020). Esta ficha recoge datos del usuario actual como habilidades físicas, barreras que enfrenta comúnmente y su experiencia con tecnologías de asistencia.
+• Lectores de Pantalla: Se propone el uso de lectores de pantalla para evaluar la verbalización del contenido. Aunque se sugiere el uso de NVDA, se deja abierta la posibilidad de usar otros según la preferencia del usuario (con base en la proto-persona).
+• Reporte de Resultados: La etapa concluye con la generación de un reporte (basado en WCAG-EM) que incluye dos instrumentos en escala de Likert: uno para evaluar la presencia de principios WCAG mediante las herramientas automáticas y otro para medir la eficacia del usuario en tareas simples.
