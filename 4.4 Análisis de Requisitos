@@ -1,0 +1,28 @@
+4.4 Análisis de Requisitos
+
+Esta etapa es un puente entre las evaluaciones previas y la recodificación técnica. Su objetivo es utilizar los datos recabados para desglosar requisitos funcionales y no funcionales, delimitando los cambios necesarios.
+Se divide en cinco actividades secuenciales:
+
+1. Definición del Sistema:
+Se debe crear un documento que describa el sistema a refactorizar, incluyendo su objetivo, los problemas que resuelve y la población beneficiada (usuarios).
+• Usuarios: Se debe describir a la comunidad basándose en la investigación previa (proto-persona), abarcando aspectos generales y capacidades físicas (ej. problemas de baja visión).
+• Requisitos Funcionales: Se listan las actividades que el usuario debe poder realizar (ej. "Tener un inventario en tiempo real").
+
+2. Definición de Cambios HTML (Checklist) Basándose en la Exploración Inicial (Etapa 2) y las herramientas automáticas, se crea un checklist de propuestas técnicamente viables. Este documento debe contener tres columnas: el código actual con el error, la propuesta de mejora y la justificación.
+• Ejemplo: Si un enlace no tiene texto, se propone agregar un atributo title o aria-label y se explica por qué es importante agregar esos atributos.
+
+3. Análisis de Tareas (Diagrama HTA) Utilizando los resultados del método Thinking Aloud, se elabora un diagrama de Análisis Jerárquico de Tareas (HTA) que desglosa los pasos que sigue un usuario para cumplir un requisito. Se mide la Complejidad Cognitiva basada en el tiempo de ejecución de la siguiente forma:
+• Fácil: < 2 minutos.
+• Normal: 2 a 4 minutos.
+• Difícil: > 4 minutos.
+• Extremadamente difícil: No logra terminar o presenta emociones negativas.
+
+4. Asignación de Problemas A cada tarea del diagrama HTA se le vinculan los problemas específicos detectados en la etapa de evaluación:
+• Usabilidad: Basado en los principios de Nielsen (Evaluación Heurística).
+• Accesibilidad: Basado en los fallos de principios WAI-ARIA.
+• Contenido: Se identifican bloqueos por contenido no textual inaccesible.
+
+5. Descripción de Historias de Usuario (UserX Stories) Finalmente, se redactan historias de usuario de forma colaborativa (entre los desarrolladores, el Diseñador UX y con la aprobación del usuario) siguiendo la metodología UserX Story.
+• Estructura: Rol del usuario + Acción/Tarea + Objetivo.
+• Criterios de Aceptación: Condiciones específicas que determinan si la historia se ha completado satisfactoriamente (ej. "con un solo clic puedo elegir datos").
+
