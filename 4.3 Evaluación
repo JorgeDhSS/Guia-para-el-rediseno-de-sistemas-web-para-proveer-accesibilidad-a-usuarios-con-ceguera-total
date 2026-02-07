@@ -1,0 +1,22 @@
+4.3 Evaluación
+
+Esta etapa sucede a la exploración inicial y se centra en validar el sistema tanto con expertos como con usuarios reales con ceguera total.
+A continuación, se presentan las tareas a realizar en esta etapa:
+
+1. Planificación de la Evaluación
+Antes de iniciar, se requiere crear un plan de pruebas de usabilidad (basado en Flórez et al., 2019). Este documento debe definir el objetivo, la metodología, el hardware/software necesario, las tareas a realizar, el perfil de los usuarios (apoyándose en la "proto-persona") y las métricas esperadas.
+
+2. Evaluación Heurística (Expertos)
+Esta fase es realizada por especialistas y se divide en dos enfoques complementarios:
+• Usabilidad General (Heurísticas de Nielsen): Se seleccionan los 10 principios de Nielsen (actualizados a 2020) por su capacidad de generalización, descartando otras heurísticas demasiado específicas encontradas en el Estado del Arte. Estos principios evalúan aspectos como la visibilidad del estado del sistema, el control del usuario, la prevención de errores, la consistencia y el diseño minimalista.
+• Accesibilidad Técnica (WAI-ARIA): Se propone una validación técnica específica para Aplicaciones Ricas de Internet. El método consiste en usar la herramienta Lighthouse (en Google Chrome) para generar un reporte que identifique premisas aprobadas, no aplicables y oportunidades de mejora en el código ARIA.
+
+3. Evaluación con Usuarios (Ceguera Total)
+El objetivo es medir la experienicia de usuario interactuando con lectores de pantalla (screen readers), descartando el uso de dispositivos Braille por ser poco frecuentes.
+Metodologías seleccionadas:
+• Thinking Aloud (Pensar en voz alta): Se basa en el protocolo de Pernice y Nielsen (2012). El usuario narra sus acciones y pensamientos mientras usa el sistema. Se recomienda grabar audio y vídeo (del teclado). Posteriormente, se transcriben los audios enfocándose en razonamientos, "impasses" (bloqueos), silencios y la entonación emocional.
+• Cuestionario UEQ (User Experience Questionnaire): Se prefiere sobre el SUS por recuperar mayor cantidad de datos. Evalúa 14 ítems agrupados en principios como atractivo, eficiencia, fiabilidad y novedad.
+• Card Sorting Híbrido: Técnica opcional sugerida solo si el usuario indica que la arquitectura de la información o el agrupamiento de contenidos no es lógico.
+
+4. Informe de Resultados
+Al finalizar, se generan reportes que cruzan los datos del Thinking Aloud (detectando contenido inaccesible y emociones negativas) con las métricas gráficas del cuestionario UEQ para priorizar las áreas de menor cumplimiento.
