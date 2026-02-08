@@ -1,0 +1,22 @@
+4.5 Recodificación
+
+
+Esta es la fase final del proceso de rediseño, aquí se realizan modificaciones técnicas en el código fuente (HTML, CSS y JavaScript) para integrar las características de accesibilidad que permitan crear las historias de usuario accesibles descritas en la etapa anterior.
+
+Las sub-etapas son:
+1. Recodificación Automática
+Se prioriza la velocidad de implementación para cumplir con requisitos básicos de accesibilidad con el mínimo esfuerzo.
+• Herramienta seleccionada: Automatica11y (Ikhsan y Catur, 2018).
+• Funcionamiento: Se instala mediante el gestor de paquetes npm y se añade un script al cuerpo del documento. Permite agregar atributos data-* a los componentes inaccesibles; la herramienta interpreta estos atributos y genera automáticamente las etiquetas WAI-ARIA necesarias (cumpliendo con directrices WCAG sin romper la estructura existente).
+• Limitación: Aunque es rápida, no ofrece control total sobre el proceso, por lo que se reserva para soluciones directas.
+
+2. Recodificación Manual
+Dirigida a modificaciones complejas que requieren un alto grado de procesamiento lógico y el criterio de un profesional. Para esta fase, la investigación selecciona un conjunto tecnológico específico ("stack") basado en comparativas de estado del arte:
+A. Herramienta de Análisis (Linter) Se utiliza para detectar errores de accesibilidad en tiempo real mientras se escribe el código, evitando que lleguen a producción.
+• Herramienta seleccionada: Axe Accessibility Linter.
+• Implementación: Se instala como extensión en el entorno de desarrollo Visual Studio Code. Destaca sobre otros (como ESLint o Curlylint) por su facilidad de configuración, amplia documentación y capacidad de resaltar errores en rojo con descripciones claras de cómo solucionarlos.
+B. Lenguaje y Librerías de Desarrollo Se opta por React JS como tecnología principal debido a su ecosistema de librerías accesibles y su capacidad de integración.
+• Enfoque de integración: La fuente destaca que React JS permite insertar componentes en proyectos existentes (mediante divs contenedores) sin necesidad de reescribir todo el sitio desde cero, optimizando el esfuerzo.
+• Librería específica: Se recomienda React Aria (y react-aria-components). Esta librería ofrece "Hooks" (como useButton o useTextField) y componentes pre-diseñados que gestionan automáticamente el foco, los estados y los atributos ARIA, garantizando una interacción robusta para tecnologías de asistencia.
+
+Finalmente, se indica que tras la recodificación (compilación del proyecto con npm run build), es necesario realizar al menos una iteración más de todo el proceso de evaluación para asegurar el cumplimiento de los objetivos.
