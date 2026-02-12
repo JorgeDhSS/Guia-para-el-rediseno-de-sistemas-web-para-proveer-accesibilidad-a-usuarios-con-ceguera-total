@@ -38,7 +38,7 @@ Marco teórico
 Vídeo explicativo: https://youtu.be/avg1NJLb4Xs 
 
 Como se mencionó en la introducción, la usabilidad es un atributo de calidad esencial que coexiste con la accesibilidad y la ingeniería de software para lograr sitios web inclusivos.
-A continuación, se presnetna algunos términos importantes:
+A continuación, se presenta algunos términos importantes:
 
 1. Accesibilidad
 Se puede entender como “el grado en el que todas las personas pueden utilizar un objeto, visitar un lugar o acceder a un servicio, independientemente de sus capacidades técnicas, cognitivas o físicas” (Graue, 2022).
