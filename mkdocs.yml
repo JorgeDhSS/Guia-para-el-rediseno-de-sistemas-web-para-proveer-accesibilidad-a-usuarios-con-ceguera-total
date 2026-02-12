@@ -1,4 +1,4 @@
-site_name: Guía para el rediseño de sistemas web para proveer accesibilidad web a usuarios con ceguera
+site_name: Guía para el rediseno de sistemas web para proveer accesibilidad a usuarios con ceguera total.
 site_description: Guía para rediseñar sistemas web para dar accesibilidad a usuarios con ceguera total.
 theme:
   name: material
@@ -10,6 +10,11 @@ theme:
 nav:
   - Inicio: index.md
   - Fases de la Guía: guideDescription.md
-      - Fase 1: fase1.md  # Ajusta los nombres a tus archivos reales
-      - Fase 2: fase2.md
+      - Capacitación: fase1.md  # Ajusta los nombres a tus archivos reales
+      - Exploración Inicial: fase2.md
+      - Evaluación: fase3.md
+      - Análisis de Requisitos: fase4.md
+      - Recodificación: fase5.md
+  - Resultados: resultados.md
+  - Conclusiones: final.md
   - Referencias: referencias.md
