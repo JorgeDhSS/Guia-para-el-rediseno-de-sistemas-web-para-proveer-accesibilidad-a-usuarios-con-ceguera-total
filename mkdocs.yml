@@ -9,7 +9,7 @@ theme:
 
 nav:
   - Inicio: index.md
-  - Fases de la Guía:
+  - Fases de la Guía: guideDescription.md
       - Fase 1: fase1.md  # Ajusta los nombres a tus archivos reales
       - Fase 2: fase2.md
   - Referencias: referencias.md
