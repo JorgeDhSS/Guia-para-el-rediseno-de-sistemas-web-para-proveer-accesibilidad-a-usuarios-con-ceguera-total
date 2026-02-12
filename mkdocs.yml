@@ -1,0 +1,15 @@
+site_name: Guía para el rediseño de sistemas web para proveer accesibilidad web a usuarios con ceguera
+site_description: Guía para rediseñar sistemas web para dar accesibilidad a usuarios con ceguera total.
+theme:
+  name: material
+  language: es  # Muy importante para que los lectores de pantalla sepan el idioma
+  features:
+    - navigation.sections
+    - navigation.expand
+
+nav:
+  - Inicio: index.md
+  - Fases de la Guía:
+      - Fase 1: fase1.md  # Ajusta los nombres a tus archivos reales
+      - Fase 2: fase2.md
+  - Referencias: referencias.md
