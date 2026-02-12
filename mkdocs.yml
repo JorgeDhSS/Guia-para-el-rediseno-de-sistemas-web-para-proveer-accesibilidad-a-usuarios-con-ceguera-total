@@ -9,11 +9,11 @@ theme:
 
 nav:
   - Inicio: index.md
-  - Fases de la Guía: guideDescription.md
-      - Capacitación: fase1.md  # Ajusta los nombres a tus archivos reales
-      - Exploración Inicial: fase2.md
-      - Evaluación: fase3.md
-      - Análisis de Requisitos: fase4.md
+  - Fases de la Guia: guideDescription.md
+      - Capacitacion: fase1.md  # Ajusta los nombres a tus archivos reales
+      - Exploracion Inicial: fase2.md
+      - Evaluacion: fase3.md
+      - Analisis de Requisitos: fase4.md
       - Recodificación: fase5.md
   - Resultados: resultados.md
   - Conclusiones: final.md
