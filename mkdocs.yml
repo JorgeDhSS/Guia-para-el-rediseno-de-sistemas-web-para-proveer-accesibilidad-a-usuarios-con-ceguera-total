@@ -9,7 +9,8 @@ theme:
 
 nav:
   - Inicio: index.md
-  - Fases de la Guia: guideDescription.md
+  - Fases de la Guia: 
+      - Introducción: guideDescription.md
       - Capacitacion: fase1.md  # Ajusta los nombres a tus archivos reales
       - Exploracion Inicial: fase2.md
       - Evaluacion: fase3.md
